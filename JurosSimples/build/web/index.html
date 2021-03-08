@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Juros com Servlet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+       <style>
+           .titulo {
+               text-align: center
+           }
+           
+            .formulario {
+
+                margin: 0 auto;
+                width: 50%;
+            }
+            
+            .botao {
+                text-align: center
+            }
+            
+            .ip {
+                width: 5%;
+            }
+            
+            .lb {
+                text-align: center
+            }
+            
+            .btn {
+                
+                width: 350px;
+                text-align: center;
+                padding: 15px 20px;
+                border: 1px solid;
+                border-radius: 6px;                
+                font-size: 18px;
+            }
+            
+            .btn:hover {
+                background-color: blue;
+                text-transform: uppercase;
+            }
+            
+       </style>
+    </head>
+    <body>
+        <h3 class="titulo">Andriw Felipe Costa de Lima Santos</h3>
+        <h3 class="titulo">RA.: 1290481922030</h3>
+        <br>        
+        <h1 class="titulo">05.1 - Projeto de cálculo de juros com Servlet</h1>
+        <br>
+        <form action="juros-simples" method="get" class="formulario">
+            <div class="lb">
+            <label>Valor Presente: </label>
+            <input type="text" name="vp" class="ip" placeholder="var vp">
+            
+            <label>Taxa de juros: </label>
+            <input type="text" name="j" class="ip" placeholder="var j">
+            
+            <label>Nº de periodos: </label>
+            <input type="text" name="n" class="ip" placeholder="var n">
+            </div>
+            <br><br>
+            <div class="botao">
+                <input type="submit" name="Calcular" value="Calcular" class="btn">
+            </div>
+        </form>
+        
+
+        
+    </body>
+    
+</html>
